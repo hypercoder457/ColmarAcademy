@@ -4,6 +4,14 @@ html {
   font-family: "Balsamiq Sans" , sans-serif;
 }
 
+button {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-weight: bold;
+}
 
 /* Header */
 .mobile-header {
@@ -13,8 +21,9 @@ html {
 .computer-header {
   display: flex;
   justify-content: center;
-  position: fixed;
+  position: static;
   background-color: white;
+  width: 100%;
 }
 
 .computer-header .logo {
@@ -38,7 +47,14 @@ nav span {
 
 /* Banner Section */
 
-.banner {
+.banner img {
+  width: 60%;
+  height: 150px;
+  margin: 32px 24px;
+}
+
+.banner-text {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
 }
