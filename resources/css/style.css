@@ -10,3 +10,15 @@ html {
   display: none;
 }
 
+.computer-header {
+  display: flex;
+  justify-content: center;
+}
+
+.computer-header .logo {
+  text-align: left;
+}
+
+.computer-nav {
+  text-align: right;
+}
