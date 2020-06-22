@@ -3,3 +3,10 @@ html {
   font-size: 20px;
   font-family: "Balsamiq Sans" , sans-serif;
 }
+
+
+/* Header */
+.mobile-header {
+  display: none;
+}
+
