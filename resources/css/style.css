@@ -13,12 +13,32 @@ html {
 .computer-header {
   display: flex;
   justify-content: center;
+  position: fixed;
+  background-color: white;
 }
 
 .computer-header .logo {
-  text-align: left;
+  margin-left: 24px;
+  height: 32px;
 }
 
 .computer-nav {
   text-align: right;
+}
+
+nav {
+  margin-right: 24px;
+  height: 64px;
+}
+
+nav span {
+  margin-left: 16px;
+}
+
+
+/* Banner Section */
+
+.banner {
+  display: flex;
+  justify-content: space-between;
 }
